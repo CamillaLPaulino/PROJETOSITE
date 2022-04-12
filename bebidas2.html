@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Criando um link para o arquivo de estilo, ou seja, css-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <title>BEBIDAS2</title>
 </head>
 <body>
     <header>
         <h1>BEBIDAS DO BAR</h1>
-        <span>MENU SITE</span>
+        <div id="navegacao">
+            <div id="area">
+                <h1 id=logo class="corrosa"> BAR DA LOIRA </h1>
+            </div>
+            <div id="menu">
+                <a href="bebidas2.html">BEBIDAS</a>
+                <a href="parceiros.html">PARCEIROS</a>
+                <a href="galeriadefotos.html">GALERIA DE FOTOS </a>
+                <a href="login.html">LOGIN</a>
+
+            </div>
+        </div>
     </header>
     <nav>
         <article>
@@ -22,44 +35,48 @@
             <span>Atualizado em:<time datatime="20-03-22">20/03/2022</time></span>
 
         </section>
-        <section>
-            <h4>DRINKS TRADICIONAIS!</h4>
-            <h2>Lagoa Azul</h2>
-            <p>O Lagoa Azul talvez seja um dos mais tradicionais drinks. Você pode apreciar a bebida em qualquer lugar do mundo. Alguns dizem que ele surgiu nos EUA. Outros na República Checa e até na França, mas a verdade é que o drink dos anos 80 é atual até hoje</p>
-        </section>
+        <ul>
+            <li>
+                <h4>DRINKS TRADICIONAIS!</h4>
+                <h2>Lagoa Azul</h2>
+                <img src="imagensdosite/lagoaazul.PNG"/>
+                <p>O Lagoa Azul talvez seja um dos mais tradicionais drinks. Você pode apreciar a bebida em qualquer lugar do mundo. Alguns dizem que ele surgiu nos EUA. Outros na República Checa e até na França, mas a verdade é que o drink dos anos 80 é atual até hoje</p>
+            </li>
+        </ul>
         <ul>
             <li>
                 <p><strong>BELLINI</strong> </p>
-                <img src="imagensdosite/Bellini.PNG"height="100" width="100"/>
+                <img src="imagensdosite/Bellini.PNG"/>
                 <p>Bebida a base de purê de pêssego e prosecco criada por Giuseppe Cipriani, fundador de um dos mais influentes bares da Italia, o Harry’s Bar em Veneza</p>
                 <p>Preço: <em>R$ 40,00</em></p>
                 <a href="https://chapiuski.com.br/como-fazer-bellini/"> HISTÓRIA DO BELLINI</a>
             </li>
             <li>
                 <p><strong>MOSCOW MULE</strong> </p>
-                <img src="imagensdosite/MoscowMule.PNG"height="100" width="100"/>
+                <img src="imagensdosite/MoscowMule.PNG"/>
                 <p>Moscow Mule também. Mojito, sempre inesquecíve.Ele foi criado em 2000 por Audrey Sanders, proprietária do Pegu Club em Nova Iorque.Ele possui um sabor refrescante e é feito à base de vodca e gengibre.</p>
                 <p>Preço: <em>R$ 40,00</em></p>
                 <a href="https://www.dci.com.br/dci-mais/vinhos-e-bebidas/moscow-mule/10510/"> HISTÓRIA DO MOSCOW MULE</a>
             </li>
             <li>
                 <p><strong>GIN</strong> </p>
-                <img src="imagensdosite/img3.webp"height="100" width="100"/>
-                <p>O Gin...</p>
+                <img src="imagensdosite/gin.PNG"/>
+                <p>O Gin.</p>
                 <p>Preço: <em>R$ 40,00</em></p>
                 <a href="https://arapuru.com.br/historia-do-gin/">HISTÓRIA DO GIN </a><br>
             </li>
         </ul>
         <br>
-        <aside>
+        <aside class="clear"> 
             <h3>Referência das histórias dos drinks</h3>
             <p>BA - International Bartenders Association - uma espécie de FIFA dos drinks</p><br>
             <p>Fundada em 24 de Fevereiro de 1951</p>
         </aside>
     </nav>
     <footer>
-        <a href="index.html"><p style="color: rgb(255, 123, 0);text-align:center">Detalhes do Bar</p></a>
+        <a href="index.html"><p>Detalhes do Bar</p></a>
         <a href="Document.html"><p>Contato</p></a>
+        <p>CONTATO</p>
     </footer>
 </body>
 </html>

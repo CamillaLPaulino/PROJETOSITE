@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{                    
+        
+        background-color: rgb(242, 246, 251);
+        border: 30px solid rgb(242, 246, 251);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#navegacao{
+            background: rgb(242, 246, 251);
+            height: 100px;
+
+}
+#area{
+        width: 720px;
+        margin: 0px auto;
+}
+
+/* animação*/
+@keyframes animacaoLogo{
+    fron{   
+            background: blue;
+            border-radius: 300px;
+        }
+    to {
+            background: pink;
+            border-radius: 300px;
+        }
+}
+#logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #96c5f9;
+    animation-name: animacaoLogo;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+
+    /* tb pode colocar tudo em uma linha*/
+   /* animation: animacaoLogo 6s 3s 2 alternate;*/
+}
+#menu{
+        float: right;
+}
+.corrosa{
+        color: lightpink;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+a:link{
+    color:#838383;
+}
+/* LINKS VISITADOS*/
+a:visited{
+    color:#96c5f9
+}
+/* LINKS HOUVER*/
+
+a:hover{
+    color:#838383;
+    background: ;
+}
+
+/* LINK ATIVO*/
+a:active{
+    color:#96c5f9;
+}
+/*atenção - para formatar Link - precisamos manter a ordem -colocada acima*/
+
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    background-color: rgb(234, 240, 240);
+    border: 100px solid rgb(234, 240, 240);
+    position: relative;
+    top: 0px;;  
+    }
+
+
+ section {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+#galeria{
+            float: left;
+}
+article {
+            font-style: italic;
+}
+aside{
+    font-size: medium;
+    font-style: normal;
+}
+footer {
+        background-color: rgb(244, 242, 249);
+        border: 1px solid rgb(59, 10, 236);
+        font-size: 20px;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;
+        color: white;
+
+}
+img{
+    height: 100px;;
+    width: 100px;
+}
+.tamimg{
+    height: 100px;;
+    width: 200px;
+}
+.clear{
+    clear: both;
+}
+div{
+    margin: 5px;;
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 20px;
+}
+#boximg{
+    width: 250px;
+    height: 250px;
+    background:url("../imagensdosite/academia-3.jpg");
+    border-radius: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#boximg h1{
+    background:rgba(255,255, 255, 0.5);
+}
+#boximg p{
+    color: rgb(245, 12, 179);
+    font-weight: 900;
+}
+#boxlineargradiente{
+    width: 250px;
+    height: 250px;
+    /*background:linear-gradient(60deg, pink,blue);*/
+    background:linear-gradient(to left, pink,blue);
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+#boxradialgradiente{
+    width: 250px;
+    height: 250px;
+    background:radial-gradient(red,yellow,red);
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
